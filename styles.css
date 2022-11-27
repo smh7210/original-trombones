@@ -11,7 +11,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 
 ul {
@@ -47,4 +47,33 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.callout {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.callout form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.callout input [type="email"] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+
+.callout .btn {
+  background-color: #f1c40f;
+  padding: 5px;
+  border: 1px solid #f1c40f;
+  border-radius: 5px;
 }
