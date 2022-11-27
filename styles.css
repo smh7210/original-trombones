@@ -65,8 +65,8 @@ ul {
   gap: 15px;
 }
 
-.callout input [type="email"] {
-  max-width: 275px;
+.callout .email {
+  min-width: 275px;
   width: 100%;
   padding: 5px;
 }
