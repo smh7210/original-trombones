@@ -77,3 +77,7 @@ ul {
   border: 1px solid #f1c40f;
   border-radius: 5px;
 }
+
+.icon {
+  color: orange;
+}
