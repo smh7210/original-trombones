@@ -23,6 +23,11 @@ ul {
   justify-content: center;
   align-items: center;
   min-height: 75px;
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: #eee;
 }
 
 .navbar .container {
@@ -30,7 +35,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 90%;
+  max-width: 95%;
 }
 
 .company-logo {
@@ -50,7 +55,7 @@ ul {
 }
 
 .callout {
-  margin-top: 50px;
+  margin-top: 75px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,11 +78,54 @@ ul {
 
 .callout .btn {
   background-color: #f1c40f;
-  padding: 5px;
+  padding: 5px 10px;
   border: 1px solid #f1c40f;
   border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#features {
+  margin: 0 auto;
+}
+
+#features .container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+#features .container .row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1;
+  gap: 100px;
+  height: 125px;
+  width: 910px;
+  padding: 5px;
 }
 
 .icon {
-  color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+  color: darkorange;
+}
+
+#how-it-works .container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#how-it-works .container iframe {
+  width: 100%;
+  max-width: 560px;
 }
